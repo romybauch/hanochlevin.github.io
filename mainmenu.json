@@ -1,0 +1,12 @@
+[
+  
+  { "label": "טקסטים", "key": "texts", "href": "/texts/plays/index.html", "default_submenu": "plays"},
+  { "label": "ספרים", "key": "books", "href":"/books/index.html", "json":"/books/books.json" },
+  { "label": "הפקות", "key": "productions-all", "href": "/productions-all/productions/index.html", "default_submenu":"productions" },
+  { "label": "חו״ל", "key": "abroad", "href":"/abroad/production-abroad/index.html", "json":"/abroad/production-abroad.json" },
+  { "label": "אודות", "key": "about" , "href":"/about/index.html"},
+  { "label": "מצטטים", "key": "quoting","href":"/quoting/index.html", "json":"/quoting/quoting.json" },
+  { "label": "מדיה", "key": "media" , "json":null},
+  { "label": "חדשות", "key": "news", "json":"news/news.json", "href":"/news/index.html" },
+  { "label": "קשר", "key": "contact" , "json":null, "href":"/contact/index.html"}
+]

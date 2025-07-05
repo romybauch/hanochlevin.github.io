@@ -1,0 +1,48 @@
+{
+    "home": [
+      { "key":"home", "href": "/index.html" }
+    ],
+    "texts": [
+    { "label": "מחזות", "key": "plays", "href": "/texts/plays/index.html", "json": "/texts/plays/plays.json" },
+    { "label": "מערכונים", "key": "skits", "href": "/texts/skits/index.html", "json": "/texts/skits/skits.json" },
+    { "label": "פזמונים", "key": "lyrics", "href": "/texts/lyrics/index.html", "json": "/texts/lyrics/lyrics.json" },
+    { "label": "פרוזה", "key": "prose", "href": "/texts/prose/index.html", "json": "/texts/prose/prose.json" },
+    { "label": "שירה", "key": "poems", "href": "/texts/poems/index.html", "json": "/texts/poems/poems.json" },
+    { "label": "ילדים", "key": "kids", "href": "/texts/kids/index.html", "json": "/texts/kids/kids.json" },
+    { "label": "תסכיתים ותסריטים", "key": "scripts", "href": "/texts/scripts/index.html", "json": "/texts/scripts/scripts.json" }
+    
+  ],
+    "books": 
+    [{"key":"books", "href":"/books/index.html", "json":"/books/books.json"}
+  ],
+    "productions-all": [
+      { "label": "הפקות", "key": "productions", "href": "/productions-all/productions/index.html", "json": "/productions-all/productions/productions.json"},
+      { "label": "רצות כעת", "key": "running-now", "href": "/productions-all/running-now/index.html", "json":"/productions-all/running-now/running-now.json"},
+      { "label": "הפקות", "key": "productions", "href": "/productions-all/productions/index.html", "json": "/productions-all/productions/productions.json"},
+      { "label": "רצות כעת", "key": "running-now", "href": "/productions-all/running-now/index.html", "json":"/productions-all/running-now/running-now.json"},
+      { "label": "הפקות", "key": "productions", "href": "/productions-all/productions/index.html", "json": "/productions-all/productions/productions.json"},
+      { "label": "רצות כעת", "key": "running-now", "href": "/productions-all/running-now/index.html", "json":"/productions-all/running-now/running-now.json"},
+      { "label": "הפקות", "key": "productions", "href": "/productions-all/productions/index.html", "json": "/productions-all/productions/productions.json"},
+      { "label": "רצות כעת", "key": "running-now", "href": "/productions-all/running-now/index.html", "json":"/productions-all/running-now/running-now.json"},
+      { "label": "הפקות", "key": "productions", "href": "/productions-all/productions/index.html", "json": "/productions-all/productions/productions.json"},
+      { "label": "רצות כעת", "key": "running-now", "href": "/productions-all/running-now/index.html", "json":"/productions-all/running-now/running-now.json"}
+    ],
+    "abroad": [
+      { "label": "הפקות בחו”ל", "key": "productions-abroad", "href": "/abroad/production-abroad/index.html", "json": "/abroad/production-abroad.json"},
+      { "label": "רצות כעת", "key": "running-abroad", "href": "/abroad/running-abroad/index.html", "json":"/abroad/production-abroad.json"},
+      { "label": "הפקות בחו”ל", "key": "productions-abroad", "href": "/abroad/production-abroad/index.html", "json": "/abroad/production-abroad.json"},
+      { "label": "רצות כעת", "key": "running-abroad", "href": "/abroad/running-abroad/index.html", "json":"/abroad/production-abroad.json"},
+      { "label": "הפקות בחו”ל", "key": "productions-abroad", "href": "/abroad/production-abroad/index.html", "json": "/abroad/production-abroad.json"},
+      { "label": "רצות כעת", "key": "running-abroad", "href": "/abroad/running-abroad/index.html", "json":"/abroad/production-abroad.json"},
+      { "label": "הפקות בחו”ל", "key": "productions-abroad", "href": "/abroad/production-abroad/index.html", "json": "/abroad/production-abroad.json"},
+      { "label": "רצות כעת", "key": "running-abroad", "href": "/abroad/running-abroad/index.html", "json":"/abroad/production-abroad.json"}
+    ],
+    "about": [],
+    "quoting": [],
+    "media": [],
+    "news": [
+      {"key":"news", "href":"/news/index.html", "json":"/news/news.json"}
+    ],
+    "contact": []
+  }
+  
