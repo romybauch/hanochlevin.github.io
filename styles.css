@@ -1676,6 +1676,10 @@ body.english-page .what-said {
   outline: none;
 }
 
+.show-mobile{
+  display: none;
+}
+
 /* === RESPONSIVE: TABLET AND MOBILE === */
 @media (max-width: 1200px) {
   .archive-grid {
@@ -2194,10 +2198,6 @@ body.english-page .what-said {
     display: none !important;
   }
 
-  /* body.home-page .home-archive-grid {
-    display: flex !important;
-    flex-direction: column;
-  } */
   body.home-page .home-archive-grid {
     grid-template-columns: 1fr !important;
   }
@@ -2252,8 +2252,6 @@ body.english-page .what-said {
     margin-right: -10px;
   }
 
-
-
   .running-text-small-title-line {
     margin-right: 30px;
   }
@@ -2275,6 +2273,10 @@ body.english-page .what-said {
 
   .title-calendar{
     margin-top: 0px;
+  }
+
+  .title-calendar-first{
+    padding-top: 300px !important;
   }
 
 }
