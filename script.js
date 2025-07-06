@@ -999,7 +999,7 @@ function setupMenusWrapperAutoHide() {
                         if (isPhone()) document.querySelector('.running-text')?.classList.remove('without-mobile-scroll');
                     }
                     if (mobileWrapper && isPhone()) {
-                        console.log('[SHOW] restoring mobile wrapper', mobileWrapper);
+                        // console.log('[SHOW] restoring mobile wrapper', mobileWrapper);
                         mobileWrapper.classList.remove('hide-header');
                     }
                 }

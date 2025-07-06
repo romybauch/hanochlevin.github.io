@@ -4,6 +4,11 @@
     "img": "/quoting/images/quote1.jpg"
   },
   {
+    "title": "שער תוכניית ההצגה ״נכנע ומנוצח״",
+    "href": "/quoting/quote4.html",
+    "img": "/quoting/images/quote4.png"
+  },
+  {
     "title": "מאייר: גולן נר גאון",
     "href": "",
     "img": "/quoting/images/quote2.jpg"
@@ -13,11 +18,7 @@
     "href": "",
     "img": "/quoting/images/quote3.jpg"
   },
-  {
-    "title": "שער תוכניית ההצגה ״נכנע ומנוצח״",
-    "href": "/quoting/quote4.html",
-    "img": "/quoting/images/quote4.png"
-  },
+  
   {
     "title": "איור התלבושת בהצגה ״רווקים ורווקות״",
     "href": "",
