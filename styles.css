@@ -271,7 +271,7 @@ html {
   font-family: "narkiss-assaf-half-mono", Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   letter-spacing: 4px;
 }
 
@@ -523,7 +523,7 @@ html {
   color: var(--color-brown);
   font-family: "narkiss-assaf-half-mono", monospace;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: normal;
   /* line-height: 19px; */
   letter-spacing: normal;
 
@@ -543,7 +543,7 @@ html {
   font-family: "VC_Haim", sans-serif;
   font-size: 39px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   line-height: 30px;
   letter-spacing: -0.8px;
   word-break: break-word;
@@ -667,7 +667,7 @@ body.english-page .archive-grid.item-mode .item-title {
   font-family: "VC_Haim", sans-serif;
   font-size: 39px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   line-height: 3px;
   letter-spacing: -0.5px;
   text-align: right;
@@ -678,6 +678,7 @@ body.english-page .archive-grid.item-mode .item-title {
 
 .error-title {
   font-family: "theBasics", sans-serif;
+  font-weight: normal;
   font-size: 28px;
   color: var(--color-brown);
   padding-bottom: 1px;
@@ -754,6 +755,7 @@ body.english-page .archive-grid.item-mode .item-title {
   border: 1px solid var(--color-background);
 
   font-family: "narkiss-assaf-half-mono", serif;
+  font-weight: normal;
   line-height: 20px;
   font-size: 20px;
   padding: 0 30px 0 10px;
@@ -789,6 +791,7 @@ body.english-page .archive-grid.item-mode .item-title {
   color: var(--color-brown);
   opacity: 1;
   font-family: "narkiss-assaf-half-mono", serif;
+  font-weight: normal;
   font-size: 20px;
 }
 
@@ -859,6 +862,7 @@ body.english-page .archive-grid.item-mode .item-title {
   line-height: 18px;
   opacity: 0.25;
   font-family: "VC_Haim", sans-serif;
+  font-weight: normal;
   font-size: 24px;
   padding-left: 10px;
 }
@@ -927,7 +931,7 @@ body.english-page .archive-grid.item-mode .item-title {
   font-family: "VC_Haim", sans-serif;
   font-size: 24px;
   font-style: normal;
-
+  font-weight: normal;
   line-height: normal;
   grid-column: 2 / span 9;
   padding-right: 0px !important;
@@ -968,7 +972,7 @@ body.english-page .archive-grid.item-mode .item-title {
   text-align: right;
   font-family: "VC_Haim", sans-serif;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: normal;
   letter-spacing: 6px;
   align-self: start;
   line-height: 24px;
@@ -1072,7 +1076,7 @@ body.english-page .what-said {
   font-family: "narkiss-assaf-half-mono", monospace;
   font-size: 22px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 35px;
   color: var(--color-brown);
   background: none;
@@ -1313,7 +1317,7 @@ body.english-page .what-said {
   /* line-height: 22px; */
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   letter-spacing: 1px;
   padding-right: 10px;
   display: flex;
@@ -1345,6 +1349,7 @@ body.english-page .what-said {
   text-align: center;
   font-size: 18px;
   font-family: "narkiss-assaf-half-mono", Arial, sans-serif;
+  font-weight: normal;
   color: var(--color-brown);
   /* margin-bottom: -50px; */
   padding-right: 25px;
@@ -1357,6 +1362,7 @@ body.english-page .what-said {
   text-decoration: none;
   border: none;
   font-family: "narkiss-assaf-half-mono", Arial, sans-serif;
+  font-weight: normal;
   /* text-align: center; */
   /* grid-column: 1/9; */
   /* display: inline-block; */
@@ -1493,7 +1499,7 @@ body.english-page .what-said {
   color: var(--color-background);
   text-decoration: none;
   font-family: "narkiss-assaf-half-mono", monospace;
-  /* padding-top: 40px; */
+  font-weight: normal;
 
   padding-left: 2px;
   padding-right: 2px;
@@ -1640,6 +1646,7 @@ body.english-page .what-said {
   padding: 10px 16px;
   padding-right: 10px;
   font-family: "narkiss-assaf-half-mono", Arial, sans-serif;
+  font-weight: normal;
   font-size: 18px;
   color: var(--color-brown);
   background: var(--color-background);
@@ -1659,6 +1666,7 @@ body.english-page .what-said {
   /* keep button at RTL start (right edge) */
   padding: 12px 32px;
   font-family: "narkiss-assaf-half-mono", sans-serif;
+  font-weight: normal;
   font-size: 24px;
   background: var(--color-background);
   color: var(--color-brown);
