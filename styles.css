@@ -907,7 +907,7 @@ body.english-page .archive-grid.item-mode .item-title {
   color: var(--color-brown);
   text-align: center;
   font-family: 'hadassah-friedlaender', sans-serif;
-
+  font-weight: normal;
   /* font-weight: bold; */
 
   line-height: normal;
@@ -1010,7 +1010,7 @@ body.padding-talker .talker {
   color: var(--color-brown);
   text-align: right;
   font-family: "hadassah-friedlaender", monospace;
-  font-weight: 300;
+  font-weight: normal;
   font-size: 23px;
   line-height: 32px;
   align-self: start;
@@ -1047,7 +1047,7 @@ body.english-page .what-said {
   font-family: "hadassah-friedlaender", serif;
   font-size: 23px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 35px;
   letter-spacing: 0.4px;
 }
@@ -1437,6 +1437,7 @@ body.english-page .what-said {
   font-size: 24px;
   color: var(--color-brown);
   font-family: 'hadassah-friedlaender', sans-serif;
+  font-weight: normal;
   letter-spacing: 0.7px;
   /* table-layout: fixed !important; */
   /* margin-top: -50px; */
@@ -2154,6 +2155,7 @@ body.english-page .what-said {
     right: 8px;
     font-size: 30px;
     font-family: 'hadassah-friedlaender', sans-serif;
+    font-weight: normal;
     line-height: 18px;
     white-space: nowrap;
   }
