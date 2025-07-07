@@ -37,9 +37,19 @@ function updateSubmenuVisibility(mainMenuKey) {
 function getCurrentPath() {
     return window.location.pathname.replace(/^\/+|\/+$/g, '');
 }
+// function getCurrentSection() {
+//     return getCurrentPath().split('/')[0] || "home";
+// }
 function getCurrentSection() {
-    return getCurrentPath().split('/')[0] || "home";
-}
+    const path = getCurrentPath();        // e.g. "abroad/production-abroad/index.html"
+  
+    if (path.startsWith('abroad/'))        return 'abroad';
+    if (path.startsWith('productions-all/')) return 'productions-all';
+    // …add more explicit prefixes if you ever need them …
+  
+    const first = path.split('/')[0];     // old behaviour
+    return first || 'home';
+  }
 function getCurrentFile() {
     return getCurrentPath().split('/').pop() || "index.html";
 }
@@ -95,14 +105,11 @@ function highlightActiveItem(currentHref) {
         // console.assert(el.classList.contains('dimmed-item') || el.classList.contains('active-item'), `[${index}] Before clean-up:`, el.className);
 
         const isActive = itemPath === currentPath;
-        // console.log(`[${index}] itemPath:`, itemPath, '| isActive:', isActive);
 
         el.classList.remove('dimmed-item', 'active-item');
         if (isActive) {
             el.classList.remove('dimmed-item');
             el.classList.add('active-item');
-            // console.log(`[${index}] ✅ Marked active:`, el.className);
-
         } else {
             el.classList.add('dimmed-item');
         }
@@ -819,27 +826,6 @@ document.body.addEventListener('click', function (e) {
     }
     e.preventDefault();
 
-    // === Highlighting UI ===
-    // if (link.classList.contains('main-menu-slide')) {
-    //     highlightMainMenu(link.dataset.menu);
-
-    //     const mainKey = link.getAttribute('data-menu');
-    //     renderSubMenu(mainKey);
-    //     updateSubmenuVisibility(mainKey);
-    //     if (window.subMenuSwiper) window.subMenuSwiper.update();
-    //     // Highlight default or first submenu
-    //     const menuItem = menuItems.find(item => item.key === mainKey);
-    //     const submenuArr = subMenus[mainKey] || [];
-    //     let submenuItem = null;
-    //     if (submenuArr.length > 0) {
-    //         submenuItem =
-    //             submenuArr.find(x => x.key === (menuItem && menuItem.default_submenu)) ||
-    //             submenuArr[0];
-    //         setTimeout(() => {
-    //             highlightSubMenu(submenuItem?.key);
-    //         }, 10);
-    //     }
-    // }
     if (link.classList.contains('main-menu-slide')) {
         const mainKey = link.getAttribute('data-menu');
     
@@ -883,7 +869,7 @@ document.body.addEventListener('click', function (e) {
         .then(html => {
             const tempDiv = document.createElement('div');
             tempDiv.innerHTML = html;
-
+            document.body.classList.remove("negative-color");
             const isEnglishPage = href.includes('/abroad/production-abroad/') || href.includes('/abroad/running-abroad/');
             document.body.classList.toggle('english-page', isEnglishPage);
             const isAboutPage = href.includes('/about/index.html');
@@ -1069,7 +1055,10 @@ fetch('/mainmenu.json')
                           },
                         breakpoints: {
                             0: { spaceBetween: 70 },     // applies to all widths initially
-                            1200: { spaceBetween: 110 }   // overrides at desktop
+                            1200: { spaceBetween: 110 },   // overrides at desktop
+                            ...(document.body.classList.contains('home-page') && {
+                                1700: { spaceBetween: 151 }
+                              })
                         }
                     });
                 }

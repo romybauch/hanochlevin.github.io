@@ -1685,9 +1685,9 @@ body.english-page .what-said {
   outline: none;
 }
 
-.show-mobile{
+/* .show-mobile{
   display: none;
-}
+} */
 
 /* === RESPONSIVE: TABLET AND MOBILE === */
 @media (max-width: 1200px) {
